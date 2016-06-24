@@ -1,0 +1,26 @@
+;;; get a bloody line down column 80!!!
+(require 'whitespace)
+(setq whitespace-line-column 79)
+(setq whitespace-style '(face lines-tail))
+(global-whitespace-mode t)
+
+
+
+;;; Load color theme.
+; (require 'moe-theme)
+; (load-theme 'moe-light t)
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
+
+;(load-theme 'badwolf t)
+(load-theme 'wombat t)
+;(load-theme 'solarized-light t)
+;;; Show line numbers on left.
+(global-linum-mode t)
+
+;;; Relative line numbers
+(require 'linum-relative)
+
+;;; Powerline status line
+(require 'powerline)
+(require 'powerline-evil)
+(powerline-default-theme)

@@ -1,0 +1,1 @@
+("~/Documents/nylas/sync-engine/" "~/Documents/nylas/ansible/" "~/Documents/nylas/share-redwood/" "~/Documents/nylas/share-nylas-system-tests/")

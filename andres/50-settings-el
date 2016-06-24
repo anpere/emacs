@@ -1,0 +1,8 @@
+;; things that set variables
+
+;linting
+(add-hook 'python-mode-hook 'flymake-python-pyflakes-load)  
+(setq flymake-python-pyflakes-executable "flake8")
+;tell linter to ignore certain rules
+;(setq flymake-python-pyflakes-extra-arguments '("--ignore=W806"))
+  

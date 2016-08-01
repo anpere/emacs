@@ -1,1 +1,1 @@
-("~/Documents/nylas/sync-engine/" "~/Documents/nylas/ansible/" "~/Documents/nylas/share-redwood/" "~/Documents/nylas/share-nylas-system-tests/")
+("~/Nylas/ansible/" "~/Documents/nylas/ansible/" "~/Documents/nylas/vault_investigation/" "~/Documents/nylas/sync-engine/" "~/.emacs.d/" "~/Documents/nylas/jenkins-job-definitions/" "~/Documents/nylas/share-redwood/" "~/Documents/nylas/share-nylas-system-tests/")

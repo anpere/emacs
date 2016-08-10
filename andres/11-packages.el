@@ -16,6 +16,7 @@
   linum-relative
   column-marker
   flymake-python-pyflakes
+  org
   ))
 
 (require 'ace-jump-mode)

@@ -26,6 +26,7 @@
 (define-key evil-normal-state-map (kbd "SPC") 'save-buffer)
 (define-key evil-normal-state-map (kbd ",k") 'kill-this-buffer)
 (define-key evil-normal-state-map (kbd "C-u") 'evil-scroll-up)
+(define-key evil-normal-state-map (kbd ",n") 'switch-to-buffer)
 
 
 ;;; Enable helm-mode

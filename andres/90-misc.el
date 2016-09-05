@@ -28,6 +28,14 @@
 (define-key evil-normal-state-map (kbd "C-u") 'evil-scroll-up)
 (define-key evil-normal-state-map (kbd ",n") 'switch-to-buffer)
 
+;; time
+(defun insert-current-time () (interactive)
+       (move-end-of-line nil)
+       (insert "\n")
+       (insert (shell-command-to-string "echo -n $(date +%H:%M) "))
+       (insert " ")
+       (evil-insert-state))
+(define-key evil-normal-state-map (kbd ",t") 'insert-current-time)
 
 ;;; Enable helm-mode
 ;;; Enable Helm
@@ -83,3 +91,7 @@
 	 (mapcar (lambda (b)
 		   (when (buffer-file-name b) (buffer-name b)))
 		          (buffer-list)))))
+
+
+
+
